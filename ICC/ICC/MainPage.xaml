@@ -3,10 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ICC"
              x:Class="ICC.MainPage">
-    <NavigationPage Title="Home">
-        <local:HomePage></local:HomePage>
-        <local:EventsPage></local:EventsPage>
-        <local:ServicesPage></local:ServicesPage>
-        <local:ChatPage></local:ChatPage>
-    </NavigationPage>
+    <local:HomePage />
+    <local:EventsPage/>
+    <local:ServicesPage/>
+    <local:ChatPage/>
 </TabbedPage>
