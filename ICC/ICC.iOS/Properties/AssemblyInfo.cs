@@ -34,3 +34,7 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+
+//For Flashlight Demo Stuff
+[assembly: UsesPermission(Android.Manifest.Permission.Flashlight)]
+[assembly: UsesPermission(Android.Manifest.Permission.Camera)]
