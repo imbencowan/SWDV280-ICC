@@ -6,9 +6,15 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <DatePicker MinimumDate="01/01/2018"
+            MaximumDate="12/31/2030"
+            Date="12/6/2018" />
+            <Label Text="Networking Events"
+                   FontSize="Large"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

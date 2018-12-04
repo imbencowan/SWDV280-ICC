@@ -10,6 +10,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\rs=w_360,h_180,cg_true,m.jfif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\rs=w_360,h_180,cg_true,m.jfif" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Essentials" Version="0.11.0-preview" />
     <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
   </ItemGroup>

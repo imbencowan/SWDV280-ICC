@@ -16,5 +16,35 @@ namespace ICC
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Relocation_Services(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Corporate_Events(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Errand_Running(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Temporary_Assisants(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AccommodationsBTN(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Business_Retreats(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

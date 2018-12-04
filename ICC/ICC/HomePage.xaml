@@ -6,7 +6,12 @@
              
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to the Home page."
+            <Label Text="Welcome to ICC"
+                   FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Idaho Concierge Company is Idaho's first and only lifestyle management as well concierge service"
+                   FontSize="Medium"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             
