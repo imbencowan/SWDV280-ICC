@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:ICC"
              x:Class="ICC.MainPage">
     <local:HomePage />
-    <local:EventsPage/>
     <local:ServicesPage/>
+    <local:EventsPage/>
     <local:ChatPage/>
 </TabbedPage>

@@ -9,9 +9,11 @@ namespace ICC
     {
         public MainPageCS ()
         {
+            
+
             Children.Add (new HomePageCS());
             Children.Add (new EventsPageCS());
-            Children.Add (new ServicesPageCS());
+            Children.Add (new ServicesPage());
             Children.Add (new ChatPageCS());
         }
     }
