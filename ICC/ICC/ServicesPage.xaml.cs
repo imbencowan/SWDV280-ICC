@@ -17,32 +17,32 @@ namespace ICC
 			InitializeComponent ();
 		}
 
-        async void Relocation_Services(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ContentPage());
-        }
-
-        async void Corporate_Events(object sender, EventArgs e)
+        private void Relocation_Services(object sender, EventArgs e)
         {
 
         }
 
-        async void Errand_Running(object sender, EventArgs e)
+        private void Corporate_Events(object sender, EventArgs e)
         {
 
         }
 
-        async void Temporary_Assisants(object sender, EventArgs e)
+        private void Errand_Running(object sender, EventArgs e)
         {
 
         }
 
-        async void AccommodationsBTN(object sender, EventArgs e)
+        private void Temporary_Assisants(object sender, EventArgs e)
         {
 
         }
 
-        async void Business_Retreats(object sender, EventArgs e)
+        private void AccommodationsBTN(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Business_Retreats(object sender, EventArgs e)
         {
 
         }
